@@ -1,13 +1,12 @@
 {
-  "name": "atoms",
-  "description": "Atomic Development Components for Modern WebApps.",
+  "name": "atoms.icons",
+  "description": "Based on The Elegant Icon Font – 360 Of The Best Free Icons For The Modern Web",
   "version": "0.0.1",
-  "homepage": "http://atoms.tapquo.com",
+  "homepage": "http://www.elegantthemes.com/blog/resources/elegant-icon-font",
   "author": {
-    "name": "Tapquo S.L.",
+    "name": "Javi Jimenez Villar - @soyjavi",
     "site": "http://tapquo.com"},
-  "main": ["./atoms.js"],
+  "main": ["./atoms.icons.css"],
   "keywords": [ "mobile", "framework", "html5", "device", "desktop", "phone", "tablet", "tv" ],
-  "dependencies": {"quojs": "latest"},
-  "license": [ {"type": "GPLv3"} ]
+  "license": [ {"type": "MIT"} ]
 }
