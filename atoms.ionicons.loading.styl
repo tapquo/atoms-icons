@@ -1,0 +1,51 @@
+.icon
+  &.loading-a:before
+    content: "\f29a"
+
+  &.loading-b:before
+    content: "\f29b"
+
+  &.loading-c:before
+    content: "\f29c"
+
+  &.loading-d:before
+    content: "\f29d"
+
+  &.loading-e:before
+    content: "\f1a2"
+
+  &.loading-a, &.loading-b, &.loading-c, &.loading-d, &.loading-e,&.looping, &.refreshing, &.ios7-reloading
+    -webkit-animation: spin 1s infinite linear
+    -moz-animation: spin 1s infinite linear
+    -o-animation: spin 1s infinite linear
+    animation: spin 1s infinite linear
+
+// @-moz-keyframes spin
+//   0%
+//     -moz-transform: rotate(0deg)
+//   100%
+//     -moz-transform: rotate(359deg)
+
+@-webkit-keyframes spin
+  0%
+    -webkit-transform: rotate(0deg)
+  100%
+    -webkit-transform: rotate(359deg)
+
+// @-o-keyframes spin
+//   0%
+//     -o-transform: rotate(0deg)
+//   100%
+//     -o-transform: rotate(359deg)
+
+// @-ms-keyframes spin
+//   0%
+//     -ms-transform: rotate(0deg)
+//   100%
+//     -ms-transform: rotate(359deg)
+
+// @keyframes spin
+//   0%
+//     transform: rotate(0deg)
+//   100%
+//     transform: rotate(359deg)

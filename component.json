@@ -1,8 +1,8 @@
 {
   "name": "atoms.icons",
-  "description": "Based on The Elegant Icon Font – 360 Of The Best Free Icons For The Modern Web",
-  "version": "0.0.1",
-  "homepage": "http://www.elegantthemes.com/blog/resources/elegant-icon-font",
+  "description": "Based on the premium icon font for Ionic Framework.",
+  "version": "0.0.2",
+  "homepage": "http://ionicons.com/",
   "author": {
     "name": "Javi Jimenez Villar - @soyjavi",
     "site": "http://tapquo.com"},

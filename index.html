@@ -1,1235 +1,538 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Your Font/Glyphs</title>
-<link rel="stylesheet" href="atoms.icons.css" />
-<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
-<style>
-    section, header, footer {display: block;}
+  <title>Atoms.Icons 0.0.2</title>
+  <link href="atoms.icons.css" rel="stylesheet" type="text/css" />
+
+  <style>
     body {
-        font-family: sans-serif;
-        color: #222;
-        line-height: 1.5;
-        font-size: 1em;
-        margin: 1em 0;
+      background: #fff;
+      color: #444;
+      font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-seri;
     }
 
-    article {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;}
-
-        section.arrows .icon {color: red;}
-        section.operations .icon {color: green;}
-        section.elements .icon {color: blue;}
-        section.hardware .icon {color: orange;}
-
-    * {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+    .container {
+      margin: 0 auto;
+      max-width: 1200px;
+      min-width: 960px;
+      padding: 0 20px;
+      width: 95%;
     }
 
-    h1 {
+    ul, h2 {
         display: block;
         clear: both;
-        font-size: 1.5rem;
-        font-weight: 100;}
-
-    hr { margin: 0.25em 0 1em 0; }
-
-    footer {
-        margin-top: 2em;
-        padding: .5em 0;
-        box-shadow: 0 -2px #eee;
     }
 
-    .box {
-        font-size: 0.6rem;
-        display: inline-block;
-        width: 7.5%;
-        /*float: left;*/
-        margin: 0 0 3em 0;
+    li {
+        list-style: none;
+        float: left;
+        width: 5rem;
+        margin: 0  0 1rem 0;
         text-align: center;
+        font-size: .7rem;
     }
-    .icon {
-        font-size: 2rem;
+    li .icon {
+        font-size: 3rem;
         display: block;
-        margin-bottom: 0.25em;
+        margin-bottom: .25rem;
     }
-</style>
+  </style>
 </head>
 <body>
 
-    <article>
+  <div class="container">
+    <h2>Signs</h2>
+    <ul>
+        <li><span class="icon alert"></span>"\f101"</li>
+        <li><span class="icon alert-circled"></span>"\f100"</li>
 
-    <section class="arrows">
-        <h1>Arrows</h1>
-        <hr/>
+        <li><span class="icon information"></span>"\f14a"</li>
+        <li><span class="icon information-circled"></span>"\f149"</li>
+        <li><span class="icon ios7-information"></span>"\f1a1"</li>
+        <li><span class="icon ios7-information-empty"></span>"\f19f"</li>
+        <li><span class="icon ios7-information-outline"></span>"\f1a0"</li>
+        <li><span class="icon help"></span>"\f143"</li>
+        <li><span class="icon help-buoy"></span>"\f27c"</li>
+        <li><span class="icon help-circled"></span>"\f142"</li>
 
-        <span class="box">
-            <span aria-hidden="true" class="icon up"></span>up
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon down"></span>down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon left"></span>left
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon right"></span>right
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon left-up"></span>left-up
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon right-up"></span>right-up
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon right-down"></span>right-down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon left-down"></span>left-down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon up-down"></span>up-down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon up-down_alt"></span>up-down_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon left-right_alt"></span>left-right_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon left-right"></span>left-right
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon expand_alt2"></span>expand_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon expand_alt"></span>expand_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon condense"></span>condense
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon expand"></span>expand
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon move"></span>move
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-up"></span>carrot-up
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-down"></span>carrot-down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-left"></span>carrot-left
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-right"></span>carrot-right
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2up"></span>carrot-2up
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2down"></span>carrot-2down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2left"></span>carrot-2left
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2right"></span>carrot-2right
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-up_alt2"></span>carrot-up_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-down_alt2"></span>carrot-down_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-left_alt2"></span>carrot-left_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-right_alt2"></span>carrot-right_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2up_alt2"></span>carrot-2up_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2down_alt2"></span>carrot-2down_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2left_alt2"></span>carrot-2left_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon carrot-2right_alt2"></span>carrot-2right_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-up"></span>triangle-up
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-down"></span>triangle-down
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-left"></span>triangle-left
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-right"></span>triangle-right
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-up_alt2"></span>triangle-up_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-down_alt2"></span>triangle-down_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-left_alt2"></span>triangle-left_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon triangle-right_alt2"></span>triangle-right_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon back"></span>back
-        </span>
-    </section>
+        <li><span class="icon checkmark"></span>"\f122"</li>
+        <li><span class="icon checkmark-circled"></span>"\f120"</li>
+        <li><span class="icon checkmark-round"></span>"\f121"</li>
+        <li><span class="icon close"></span>"\f12a"</li>
+        <li><span class="icon close-circled"></span>"\f128"</li>
+        <li><span class="icon close-round"></span>"\f129"</li>
+    </ul>
 
-    <section class="operations">
-        <h1>Operations</h1>
-        <hr/>
+    <h2>Arrows</h2>
+    <ul>
+        <li><span class="icon arrow-up"></span>"\f126"</li>
+        <li><span class="icon arrow-right"></span>"\f125"</li>
+        <li><span class="icon arrow-down"></span>"\f123"</li>
+        <li><span class="icon arrow-left"></span>"\f124"</li>
+        <li><span class="icon arrow-up-a"></span>"\f10c"</li>
+        <li><span class="icon arrow-right-a"></span>"\f109"</li>
+        <li><span class="icon arrow-down-a"></span>"\f103"</li>
+        <li><span class="icon arrow-left-a"></span>"\f106"</li>
+        <li><span class="icon arrow-up-b"></span>"\f10d"</li>
+        <li><span class="icon arrow-right-b"></span>"\f10a"</li>
+        <li><span class="icon arrow-down-b"></span>"\f104"</li>
+        <li><span class="icon arrow-left-b"></span>"\f107"</li>
+        <li><span class="icon arrow-up-c"></span>"\f10e"</li>
+        <li><span class="icon arrow-right-c"></span>"\f10b"</li>
+        <li><span class="icon arrow-down-c"></span>"\f105"</li>
+        <li><span class="icon arrow-left-c"></span>"\f108"</li>
+        <li><span class="icon arrow-down-d"></span>"\f27e"</li>
+        <li><span class="icon arrow-left-d"></span>"\f27f"</li>
+        <li><span class="icon arrow-right-d"></span>"\f280"</li>
+        <li><span class="icon arrow-up-d"></span>"\f281"</li>
+        <li><span class="icon arrow-expand"></span>"\f25e"</li>
+        <li><span class="icon arrow-graph-down-left"></span>"\f25f"</li>
+        <li><span class="icon arrow-graph-down-right"></span>"\f260"</li>
+        <li><span class="icon arrow-graph-up-left"></span>"\f261"</li>
+        <li><span class="icon arrow-graph-up-right"></span>"\f262"</li>
+        <li><span class="icon arrow-move"></span>"\f263"</li>
+        <li><span class="icon arrow-resize"></span>"\f264"</li>
+        <li><span class="icon arrow-return-left"></span>"\f265"</li>
+        <li><span class="icon arrow-return-right"></span>"\f266"</li>
+        <li><span class="icon arrow-shrink"></span>"\f267"</li>
+        <li><span class="icon arrow-swap"></span>"\f268"</li>
+    </ul>
 
-        <span class="box">
-            <span aria-hidden="true" class="icon minus"></span>minus
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon plus"></span>plus
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon close"></span>close
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon check"></span>check
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon minus_alt2"></span>minus_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon plus_alt2"></span>plus_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon close_alt2"></span>close_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon check_alt2"></span>check_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon zoom-out_alt"></span>zoom-out_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon zoom-in_alt"></span>zoom-in_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon search"></span>search
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon box-empty"></span>box-empty
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon box-selected"></span>box-selected
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon minus-box"></span>minus-box
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon plus-box"></span>plus-box
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon box-checked"></span>box-checked
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon circle-empty"></span>circle-empty
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon circle-slelected"></span>circle-slelected
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon stop_alt2"></span>stop_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon stop"></span>stop
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon pause_alt2"></span>pause_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon pause"></span>pause
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon menu"></span>menu
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon menu-square_alt2"></span>menu-square_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon menu-circle_alt2"></span>menu-circle_alt2
-        </span>
-    </section>
+    <h2>Navigation</h2>
+    <ul>
+        <li><span class="icon back"></span>"\f150"</li>
+        <li><span class="icon forward"></span>"\f152"</li>
+        <li><span class="icon left"></span>"\f153"</li>
+        <li><span class="icon right"></span>"\f154"</li>
+        <li><span class="icon up"></span>"\f155"</li>
+        <li><span class="icon down"></span>"\f151"</li>
+    </ul>
 
-    <section class="elements">
-        <h1>Elements</h1>
-        <hr/>
-        <span class="box">
-            <span aria-hidden="true" class="icon ul"></span>ul
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon ol"></span>ol
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon adjust-horiz"></span>adjust-horiz
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon adjust-vert"></span>adjust-vert
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon document_alt"></span>document_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon documents_alt"></span>documents_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon pencil"></span>pencil
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon pencil-edit_alt"></span>pencil-edit_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon pencil-edit"></span>pencil-edit
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon folder-alt"></span>folder-alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon folder-open_alt"></span>folder-open_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon folder-add_alt"></span>folder-add_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon cloud_alt"></span>cloud_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon cloud-upload_alt"></span>cloud-upload_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon cloud-download_alt"></span>cloud-download_alt
-        </span>
-    </section>
+    <h2>People</h2>
+    <ul>
+        <li><span class="icon people"></span>"\f1c0"</li>
+        <li><span class="icon people-outline"></span>"\f1bf"</li>
+        <li><span class="icon person"></span>"\f1c2"</li>
+        <li><span class="icon person-outline"></span>"\f1c1"</li>
+        <li><span class="icon personadd"></span>"\f1c4"</li>
+        <li><span class="icon personadd-outline"></span>"\f1c3"</li>
+        <li><span class="icon contact"></span>"\f180"</li>
+        <li><span class="icon contact-outline"></span>"\f17f"</li>
+        <li><span class="icon person-b"></span>"\f213"</li>
+        <li><span class="icon person-b-add"></span>"\f211"</li>
+        <li><span class="icon people-b"></span>"\f212"</li>
+        <li><span class="icon man"></span>"\f202"</li>
+        <li><span class="icon woman"></span>"\f25d"</li>
+        <li><span class="icon female"></span>"\f278"</li>
+        <li><span class="icon male"></span>"\f2a1"</li>
+    </ul>
 
-    <section>
-        <h1>Messages</h1>
-        <hr/>
-        <span class="box">
-            <span aria-hidden="true" class="icon info_alt"></span>info_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon error-oct_alt"></span>error-oct_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon error-circle_alt"></span>error-circle_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon error-triangle_alt"></span>error-triangle_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon question_alt2"></span>question_alt2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon question"></span>question
-        </span>
+    <h2>Devices</h2>
+    <ul>
+        <li><span class="icon tv"></span>"\f1b0"</li>
+        <li><span class="icon tv-outline"></span>"\f1af"</li>
+        <li><span class="icon monitor"></span>"\f20a"</li>
+        <li><span class="icon laptop"></span>"\f1fc"</li>
+        <li><span class="icon ipad"></span>"\f1f9"</li>
+        <li><span class="icon iphone"></span>"\f1fa"</li>
+        <li><span class="icon ipod"></span>"\f1fb"</li>
+        <li><span class="icon game-controller-a"></span>"\f13b"</li>
+        <li><span class="icon game-controller-b"></span>"\f13c"</li>
+        <li><span class="icon calculator"></span>"\f26d"</li>
+        <li><span class="icon ios7-calculator"></span>"\f285"</li>
+        <li><span class="icon ios7-calculator-outline"></span>"\f284"</li>
 
+        <li><span class="icon ios7-printer"></span>"\f1cd"</li>
+        <li><span class="icon ios7-printer-outline"></span>"\f1cc"</li>
+        <li><span class="icon printer"></span>"\f21a"</li>
 
-    </section>
+        <li><span class="icon camera"></span>"\f118"</li>
+        <li><span class="icon ios7-camera"></span>"\f165"</li>
+        <li><span class="icon ios7-camera-outline"></span>"\f164"</li>
+        <li><span class="icon videocamera"></span>"\f256"</li>
+        <li><span class="icon ios7-videocam"></span>"\f1f4"</li>
+        <li><span class="icon ios7-videocam-outline"></span>"\f1f3"</li>
+    </ul>
 
-    <section class="hardware">
-        <h1>Hardware</h1>
-        <hr/>
-        <span class="box">
-            <span aria-hidden="true" class="icon mobile"></span>mobile
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon tablet"></span>tablet
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon laptop"></span>laptop
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon desktop"></span>desktop
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon camera_alt"></span>camera_alt
-        </span>
-          <span class="box">
-            <span aria-hidden="true" class="icon vol-mute_alt"></span>vol-mute_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon volume-low_alt"></span>volume-low_alt
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon volume-high_alt"></span>volume-high_alt
-        </span>
+    <h2>Objects</h2>
+    <ul>
+        <li><span class="icon beaker"></span>"\f269"</li>
+        <li><span class="icon beer"></span>"\f26a"</li>
+        <li><span class="icon wineglass"></span>"\f2b9"</li>
+        <li><span class="icon ios7-wineglass"></span>"\f294"</li>
+        <li><span class="icon ios7-wineglass-outline"></span>"\f293"</li>
+        <li><span class="icon leaf"></span>"\f1fd"</li>
+        <li><span class="icon knife"></span>"\f297"</li>
+        <li><span class="icon fork"></span>"\f27a"</li>
+        <li><span class="icon spoon"></span>"\f2b4"</li>
+        <li><span class="icon hammer"></span>"\f27b"</li>
+        <li><span class="icon jet"></span>"\f295"</li>
+        <li><span class="icon plane"></span>"\f214"</li>
+        <li><span class="icon pizza"></span>"\f2a8"</li>
+        <li><span class="icon thermometer"></span>"\f2b6"</li>
+        <li><span class="icon card"></span>"\f119"</li>
+        <li><span class="icon bag"></span>"\f110"</li>
+        <li><span class="icon egg"></span>"\f277"</li>
+        <li><span class="icon ios7-medkit"></span>"\f289"</li>
+        <li><span class="icon ios7-medkit-outline"></span>"\f288"</li>
+        <li><span class="icon medkit"></span>"\f2a2"</li>
+    </ul>
 
-        <span class="box">
-            <span aria-hidden="true" class="icon headphones"></span>headphones
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon phone"></span>phone
-        </span>
-    </section>
+    <h2>Player</h2>
+    <ul>
+        <li><span class="icon ios7-play"></span>"\f1c8"</li>
+        <li><span class="icon ios7-play-outline"></span>"\f1c7"</li>
+        <li><span class="icon play"></span>"\f215"</li>
+        <li><span class="icon ios7-pause"></span>"\f1be"</li>
+        <li><span class="icon ios7-pause-outline"></span>"\f1bd"</li>
+        <li><span class="icon pause"></span>"\f210"</li>
+        <li><span class="icon ios7-skipbackward"></span>"\f1dc"</li>
+        <li><span class="icon ios7-skipbackward-outline"></span>"\f1db"</li>
+        <li><span class="icon ios7-skipforward"></span>"\f1de"</li>
+        <li><span class="icon ios7-skipforward-outline"></span>"\f1dd"</li>
+        <li><span class="icon skip-backward"></span>"\f222"</li>
+        <li><span class="icon skip-forward"></span>"\f223"</li>
+        <li><span class="icon ios7-rewind"></span>"\f1d8"</li>
+        <li><span class="icon ios7-rewind-outline"></span>"\f1d7"</li>
+        <li><span class="icon ios7-fastforward"></span>"\f18b"</li>
+        <li><span class="icon ios7-fastforward-outline"></span>"\f18a"</li>
+        <li><span class="icon ios7-volume-high"></span>"\f1f5"</li>
+        <li><span class="icon ios7-volume-low"></span>"\f1f6"</li>
+        <li><span class="icon volume-high"></span>"\f257"</li>
+        <li><span class="icon volume-low"></span>"\f258"</li>
+        <li><span class="icon volume-medium"></span>"\f259"</li>
+        <li><span class="icon volume-mute"></span>"\f25a"</li>
+    </ul>
 
+    <h2>BASE</h2>
+    <ul>
+      <li><span class="icon archive"></span>"\f102"</li>
+      <li><span class="icon at"></span>"\f10f"</li>
+      <li><span class="icon battery-charging"></span>"\f111"</li>
+      <li><span class="icon battery-empty"></span>"\f112"</li>
+      <li><span class="icon battery-full"></span>"\f113"</li>
+      <li><span class="icon battery-half"></span>"\f114"</li>
+      <li><span class="icon battery-low"></span>"\f115"</li>
+      <li><span class="icon bluetooth"></span>"\f116"</li>
+      <li><span class="icon bookmark"></span>"\f26b"</li>
+      <li><span class="icon briefcase"></span>"\f26c"</li>
+      <li><span class="icon calendar"></span>"\f117"</li>
+      <li><span class="icon chatbox"></span>"\f11b"</li>
+      <li><span class="icon chatbox-working"></span>"\f11a"</li>
+      <li><span class="icon chatboxes"></span>"\f11c"</li>
+      <li><span class="icon chatbubble"></span>"\f11e"</li>
+      <li><span class="icon chatbubble-working"></span>"\f11d"</li>
+      <li><span class="icon chatbubbles"></span>"\f11f"</li>
+      <li><span class="icon clipboard"></span>"\f127"</li>
+      <li><span class="icon clock"></span>"\f26e"</li>
+      <li><span class="icon cloud"></span>"\f12b"</li>
+      <li><span class="icon code"></span>"\f271"</li>
+      <li><span class="icon code-download"></span>"\f26f"</li>
+      <li><span class="icon code-working"></span>"\f270"</li>
+      <li><span class="icon coffee"></span>"\f272"</li>
+      <li><span class="icon compass"></span>"\f273"</li>
+      <li><span class="icon compose"></span>"\f12c"</li>
+      <li><span class="icon connection-bars"></span>"\f274"</li>
+      <li><span class="icon contrast"></span>"\f275"</li>
+      <li><span class="icon disc"></span>"\f12d"</li>
+      <li><span class="icon document"></span>"\f12f"</li>
+      <li><span class="icon document-text"></span>"\f12e"</li>
+      <li><span class="icon drag"></span>"\f130"</li>
+      <li><span class="icon earth"></span>"\f276"</li>
+      <li><span class="icon eject"></span>"\f131"</li>
+      <li><span class="icon email"></span>"\f132"</li>
+      <li><span class="icon eye"></span>"\f133"</li>
+      <li><span class="icon filing"></span>"\f134"</li>
+      <li><span class="icon film-marker"></span>"\f135"</li>
+      <li><span class="icon flag"></span>"\f279"</li>
+      <li><span class="icon flash"></span>"\f137"</li>
+      <li><span class="icon flash-off"></span>"\f136"</li>
+      <li><span class="icon flask"></span>"\f138"</li>
+      <li><span class="icon folder"></span>"\f139"</li>
+      <li><span class="icon gear-a"></span>"\f13d"</li>
+      <li><span class="icon gear-b"></span>"\f13e"</li>
+      <li><span class="icon grid"></span>"\f13f"</li>
+      <li><span class="icon headphone"></span>"\f140"</li>
+      <li><span class="icon heart"></span>"\f141"</li>
+      <li><span class="icon home"></span>"\f144"</li>
+      <li><span class="icon icecream"></span>\f27d"</li>
+      <li><span class="icon image"></span>"\f147"</li>
+      <li><span class="icon images"></span>"\f148"</li>
+      <li><span class="icon ionic"></span>"\f14b"</li>
+      <li><span class="icon ios7-alarm"></span>"\f14d"</li>
+      <li><span class="icon ios7-alarm-outline"></span>"\f14c"</li>
+      <li><span class="icon ios7-albums"></span>"\f14f"</li>
+      <li><span class="icon ios7-albums-outline"></span>"\f14e"</li>
+      <li><span class="icon ios7-at"></span>"\f157"</li>
+      <li><span class="icon ios7-at-outline"></span>"\f156"</li>
+      <li><span class="icon ios7-bell"></span>"\f159"</li>
+      <li><span class="icon ios7-bell-outline"></span>"\f158"</li>
+      <li><span class="icon ios7-bolt"></span>"\f15b"</li>
+      <li><span class="icon ios7-bolt-outline"></span>"\f15a"</li>
+      <li><span class="icon ios7-bookmarks"></span>"\f15d"</li>
+      <li><span class="icon ios7-bookmarks-outline"></span>"\f15c"</li>
+      <li><span class="icon ios7-box"></span>"\f15f"</li>
+      <li><span class="icon ios7-box-outline"></span>"\f15e"</li>
+      <li><span class="icon ios7-briefcase"></span>"\f283"</li>
+      <li><span class="icon ios7-briefcase-outline"></span>"\f282"</li>
+      <li><span class="icon ios7-browsers"></span>"\f161"</li>
+      <li><span class="icon ios7-browsers-outline"></span>"\f160"</li>
+      <li><span class="icon ios7-calendar"></span>"\f163"</li>
+      <li><span class="icon ios7-calendar-outline"></span>"\f162"</li>
+      <li><span class="icon ios7-cart"></span>"\f167"</li>
+      <li><span class="icon ios7-cart-outline"></span>"\f166"</li>
+      <li><span class="icon ios7-chatboxes"></span>"\f169"</li>
+      <li><span class="icon ios7-chatboxes-outline"></span>"\f168"</li>
+      <li><span class="icon ios7-chatbubble"></span>"\f16b"</li>
+      <li><span class="icon ios7-chatbubble-outline"></span>"\f16a"</li>
+      <li><span class="icon ios7-checkmark"></span>"\f16e"</li>
+      <li><span class="icon ios7-checkmark-empty"></span>"\f16c"</li>
+      <li><span class="icon ios7-checkmark-outline"></span>"\f16d"</li>
+      <li><span class="icon ios7-circle-filled"></span>"\f16f"</li>
+      <li><span class="icon ios7-circle-outline"></span>"\f170"</li>
+      <li><span class="icon ios7-clock"></span>"\f172"</li>
+      <li><span class="icon ios7-clock-outline"></span>"\f171"</li>
+      <li><span class="icon ios7-close"></span>"\f2bc"</li>
+      <li><span class="icon ios7-close-outline"></span>"\f2bb"</li>
+      <li><span class="icon ios7-cloud"></span>"\f178"</li>
+      <li><span class="icon ios7-cloud-download"></span>"\f174"</li>
+      <li><span class="icon ios7-cloud-download-outline"></span>"\f173"</li>
+      <li><span class="icon ios7-cloud-outline"></span>"\f175"</li>
+      <li><span class="icon ios7-cloud-upload"></span>"\f177"</li>
+      <li><span class="icon ios7-cloud-upload-outline"></span>"\f176"</li>
+      <li><span class="icon ios7-cloudy"></span>"\f17a"</li>
+      <li><span class="icon ios7-cloudy-outline"></span>"\f179"</li>
+      <li><span class="icon ios7-cog"></span>"\f17c"</li>
+      <li><span class="icon ios7-cog-outline"></span>"\f17b"</li>
+      <li><span class="icon ios7-compose"></span>"\f17e"</li>
+      <li><span class="icon ios7-compose-outline"></span>"\f17d"</li>
+      <li><span class="icon ios7-copy"></span>"\f182"</li>
+      <li><span class="icon ios7-copy-outline"></span>"\f181"</li>
+      <li><span class="icon ios7-download"></span>"\f184"</li>
+      <li><span class="icon ios7-download-outline"></span>"\f183"</li>
+      <li><span class="icon ios7-drag"></span>"\f185"</li>
+      <li><span class="icon ios7-email"></span>"\f187"</li>
+      <li><span class="icon ios7-email-outline"></span>"\f186"</li>
+      <li><span class="icon ios7-eye"></span>"\f189"</li>
+      <li><span class="icon ios7-eye-outline"></span>"\f188"</li>
+      <li><span class="icon ios7-filing"></span>"\f18d"</li>
+      <li><span class="icon ios7-filing-outline"></span>"\f18c"</li>
+      <li><span class="icon ios7-film"></span>"\f18f"</li>
+      <li><span class="icon ios7-film-outline"></span>"\f18e"</li>
+      <li><span class="icon ios7-flag"></span>"\f191"</li>
+      <li><span class="icon ios7-flag-outline"></span>"\f190"</li>
+      <li><span class="icon ios7-folder"></span>"\f193"</li>
+      <li><span class="icon ios7-folder-outline"></span>"\f192"</li>
+      <li><span class="icon ios7-gear"></span>"\f195"</li>
+      <li><span class="icon ios7-gear-outline"></span>"\f194"</li>
+      <li><span class="icon ios7-glasses"></span>"\f197"</li>
+      <li><span class="icon ios7-glasses-outline"></span>"\f196"</li>
+      <li><span class="icon ios7-heart"></span>"\f199"</li>
+      <li><span class="icon ios7-heart-outline"></span>"\f198"</li>
+      <li><span class="icon ios7-help"></span>"\f19c"</li>
+      <li><span class="icon ios7-help-empty"></span>"\f19a"</li>
+      <li><span class="icon ios7-help-outline"></span>"\f19b"</li>
+      <li><span class="icon ios7-infinite"></span>"\f19e"</li>
+      <li><span class="icon ios7-infinite-outline"></span>"\f19d"</li>
+      <li><span class="icon ios7-keypad"></span>"\f1a4"</li>
+      <li><span class="icon ios7-keypad-outline"></span>"\f1a3"</li>
+      <li><span class="icon ios7-lightbulb"></span>"\f287"</li>
+      <li><span class="icon ios7-lightbulb-outline"></span>"\f286"</li>
+      <li><span class="icon ios7-location"></span>"\f1a6"</li>
+      <li><span class="icon ios7-location-outline"></span>"\f1a5"</li>
+      <li><span class="icon ios7-locked"></span>"\f1a8"</li>
+      <li><span class="icon ios7-locked-outline"></span>"\f1a7"</li>
+      <li><span class="icon ios7-mic"></span>"\f1ab"</li>
+      <li><span class="icon ios7-mic-off"></span>"\f1a9"</li>
+      <li><span class="icon ios7-mic-outline"></span>"\f1aa"</li>
+      <li><span class="icon ios7-minus"></span>"\f1ae"</li>
+      <li><span class="icon ios7-minus-empty"></span>"\f1ac"</li>
+      <li><span class="icon ios7-minus-outline"></span>"\f1ad"</li>
+      <li><span class="icon ios7-moon"></span>"\f1b2"</li>
+      <li><span class="icon ios7-moon-outline"></span>"\f1b1"</li>
+      <li><span class="icon ios7-more"></span>"\f1b4"</li>
+      <li><span class="icon ios7-more-outline"></span>"\f1b3"</li>
+      <li><span class="icon ios7-musical-note"></span>"\f1b5"</li>
+      <li><span class="icon ios7-musical-notes"></span>"\f1b6"</li>
+      <li><span class="icon ios7-navigate"></span>"\f1b8"</li>
+      <li><span class="icon ios7-navigate-outline"></span>"\f1b7"</li>
+      <li><span class="icon ios7-paperplane"></span>"\f1ba"</li>
+      <li><span class="icon ios7-paperplane-outline"></span>"\f1b9"</li>
+      <li><span class="icon ios7-partlysunny"></span>"\f1bc"</li>
+      <li><span class="icon ios7-partlysunny-outline"></span>"\f1bb"</li>
+      <li><span class="icon ios7-photos"></span>"\f1c6"</li>
+      <li><span class="icon ios7-photos-outline"></span>"\f1c5"</li>
+      <li><span class="icon ios7-pie"></span>"\f28b"</li>
+      <li><span class="icon ios7-pie-outline"></span>"\f28a"</li>
+      <li><span class="icon ios7-plus"></span>"\f1cb"</li>
+      <li><span class="icon ios7-plus-empty"></span>"\f1c9"</li>
+      <li><span class="icon ios7-plus-outline"></span>"\f1ca"</li>
+      <li><span class="icon ios7-pricetag"></span>"\f28d"</li>
+      <li><span class="icon ios7-pricetag-outline"></span>"\f28c"</li>
+      <li><span class="icon ios7-rainy"></span>"\f1cf"</li>
+      <li><span class="icon ios7-rainy-outline"></span>"\f1ce"</li>
+      <li><span class="icon ios7-recording"></span>"\f1d1"</li>
+      <li><span class="icon ios7-recording-outline"></span>"\f1d0"</li>
+      <li><span class="icon ios7-redo"></span>"\f1d3"</li>
+      <li><span class="icon ios7-redo-outline"></span>"\f1d2"</li>
+      <li><span class="icon ios7-refresh"></span>"\f1d6"</li>
+      <li><span class="icon ios7-refresh-empty"></span>"\f1d4"</li>
+      <li><span class="icon ios7-refresh-outline"></span>"\f1d5"</li>
+      <li><span class="icon ios7-reload"></span>"\f28e"</li>
+      <li><span class="icon ios7-search"></span>"\f1da"</li>
+      <li><span class="icon ios7-search-strong"></span>"\f1d9"</li>
+      <li><span class="icon ios7-speedometer"></span>"\f290"</li>
+      <li><span class="icon ios7-speedometer-outline"></span>"\f28f"</li>
+      <li><span class="icon ios7-star"></span>"\f1e0"</li>
+      <li><span class="icon ios7-star-outline"></span>"\f1df"</li>
+      <li><span class="icon ios7-stopwatch"></span>"\f1e2"</li>
+      <li><span class="icon ios7-stopwatch-outline"></span>"\f1e1"</li>
+      <li><span class="icon ios7-sunny"></span>"\f1e4"</li>
+      <li><span class="icon ios7-sunny-outline"></span>"\f1e3"</li>
+      <li><span class="icon ios7-telephone"></span>"\f1e6"</li>
+      <li><span class="icon ios7-telephone-outline"></span>"\f1e5"</li>
+      <li><span class="icon ios7-thunderstorm"></span>"\f1e8"</li>
+      <li><span class="icon ios7-thunderstorm-outline"></span>"\f1e7"</li>
+      <li><span class="icon ios7-time"></span>"\f292"</li>
+      <li><span class="icon ios7-time-outline"></span>"\f291"</li>
+      <li><span class="icon ios7-timer"></span>"\f1ea"</li>
+      <li><span class="icon ios7-timer-outline"></span>"\f1e9"</li>
+      <li><span class="icon ios7-trash"></span>"\f1ec"</li>
+      <li><span class="icon ios7-trash-outline"></span>"\f1eb"</li>
+      <li><span class="icon ios7-undo"></span>"\f1ee"</li>
+      <li><span class="icon ios7-undo-outline"></span>"\f1ed"</li>
+      <li><span class="icon ios7-unlocked"></span>"\f1f0"</li>
+      <li><span class="icon ios7-unlocked-outline"></span>"\f1ef"</li>
+      <li><span class="icon ios7-upload"></span>"\f1f2"</li>
+      <li><span class="icon ios7-upload-outline"></span>"\f1f1"</li>
+      <li><span class="icon ios7-world"></span>"\f1f8"</li>
+      <li><span class="icon ios7-world-outline"></span>"\f1f7"</li>
+      <li><span class="icon key"></span>"\f296"</li>
+      <li><span class="icon levels"></span>"\f298"</li>
+      <li><span class="icon lightbulb"></span>"\f299"</li>
+      <li><span class="icon link"></span>"\f1fe"</li>
+      <li><span class="icon location"></span>"\f1ff"</li>
+      <li><span class="icon locked"></span>"\f200"</li>
+      <li><span class="icon log-in"></span>"\f29e"</li>
+      <li><span class="icon log-out"></span>"\f29f"</li>
+      <li><span class="icon loop"></span>"\f201"</li>
+      <li><span class="icon magnet"></span>"\f2a0"</li>
+      <li><span class="icon map"></span>"\f203"</li>
+      <li><span class="icon mic-a"></span>"\f204"</li>
+      <li><span class="icon mic-b"></span>"\f205"</li>
+      <li><span class="icon mic-c"></span>"\f206"</li>
+      <li><span class="icon minus"></span>"\f209"</li>
+      <li><span class="icon minus-circled"></span>"\f207"</li>
+      <li><span class="icon minus-round"></span>"\f208"</li>
+      <li><span class="icon more"></span>"\f20b"</li>
+      <li><span class="icon music-note"></span>"\f20c"</li>
+      <li><span class="icon navicon"></span>"\f20e"</li>
+      <li><span class="icon navicon-round"></span>"\f20d"</li>
+      <li><span class="icon navigate"></span>"\f2a3"</li>
+      <li><span class="icon nuclear"></span>"\f2a4"</li>
+      <li><span class="icon paperclip"></span>"\f20f"</li>
+      <li><span class="icon pie-graph"></span>"\f2a5"</li>
+      <li><span class="icon pin"></span>"\f2a6"</li>
+      <li><span class="icon pinpoint"></span>"\f2a7"</li>
+      <li><span class="icon plus"></span>"\f218"</li>
+      <li><span class="icon plus-circled"></span>"\f216"</li>
+      <li><span class="icon plus-round"></span>"\f217"</li>
+      <li><span class="icon pound"></span>"\f219"</li>
+      <li><span class="icon power"></span>"\f2a9"</li>
+      <li><span class="icon pricetag"></span>"\f2aa"</li>
+      <li><span class="icon pricetags"></span>"\f2ab"</li>
+      <li><span class="icon radio-waves"></span>"\f2ac"</li>
+      <li><span class="icon record"></span>"\f21b"</li>
+      <li><span class="icon refresh"></span>"\f21c"</li>
+      <li><span class="icon reply"></span>"\f21e"</li>
+      <li><span class="icon reply-all"></span>"\f21d"</li>
+      <li><span class="icon search"></span>"\f21f"</li>
+      <li><span class="icon settings"></span>"\f2ad"</li>
+      <li><span class="icon share"></span>"\f220"</li>
+      <li><span class="icon shuffle"></span>"\f221"</li>
+      <li><span class="icon speakerphone"></span>"\f2b2"</li>
+      <li><span class="icon speedometer"></span>"\f2b3"</li>
+      <li><span class="icon star"></span>"\f24e"</li>
+      <li><span class="icon stats-bars"></span>"\f2b5"</li>
+      <li><span class="icon stop"></span>"\f24f"</li>
+      <li><span class="icon thumbsdown"></span>"\f250"</li>
+      <li><span class="icon thumbsup"></span>"\f251"</li>
+      <li><span class="icon trash-a"></span>"\f252"</li>
+      <li><span class="icon trash-b"></span>"\f253"</li>
+      <li><span class="icon umbrella"></span>"\f2b7"</li>
+      <li><span class="icon unlocked"></span>"\f254"</li>
+      <li><span class="icon upload"></span>"\f255"</li>
+      <li><span class="icon usb"></span>"\f2b8"</li>
+      <li><span class="icon waterdrop"></span>"\f25b"</li>
+      <li><span class="icon wifi"></span>"\f25c"</li>
+      <li><span class="icon wrench"></span>"\f2ba"</li>
+    </ul>
 
-    <section>
-        <h1>Unknown</h1>
-        <hr/>
-    <span class="box">
-        <span aria-hidden="true" class="icon comment_alt"></span>comment_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon chat_alt"></span>chat_alt
-    </span>
+    <h2>Loading</h2>
+    <ul>
+        <li><span class="icon loading-a"></span>"\f29a"</li>
+        <li><span class="icon loading-b"></span>"\f29b"</li>
+        <li><span class="icon loading-c"></span>"\f29c"</li>
+        <li><span class="icon loading-d"></span>"\f29d"</li>
+        <li><span class="icon loading-e"></span>"\f1a2"</li>
+        <li><span class="icon looping"></span>"\f201"</li>
+        <li><span class="icon refreshing"></span>"\f21c"</li>
+        <li><span class="icon ios7-reloading"></span>"\f28e"</li>
+    </ul>
 
-    <span class="box">
-        <span aria-hidden="true" class="icon quotations"></span>quotations
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon quotations_alt2"></span>quotations_alt2
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon clock_alt"></span>clock_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon lock_alt"></span>lock_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon lock-open_alt"></span>lock-open_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon key_alt"></span>key_alt
-    </span>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon image"></span>image
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon images"></span>images
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon lightbulb_alt"></span>lightbulb_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon gift_alt"></span>gift_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon house_alt"></span>house_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon genius"></span>genius
-    </span>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon mail_alt"></span>mail_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cone_alt"></span>cone_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon ribbon_alt"></span>ribbon_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon bag_alt"></span>bag_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon creditcard"></span>creditcard
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cart_alt"></span>cart_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon paperclip"></span>paperclip
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tag_alt"></span>tag_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tags_alt"></span>tags_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon trash_alt"></span>trash_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cursor_alt"></span>cursor_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon mic_alt"></span>mic_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon compass_alt"></span>compass_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pin_alt"></span>pin_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pushpin_alt"></span>pushpin_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon map_alt"></span>map_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon drawer_alt"></span>drawer_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon toolbox_alt"></span>toolbox_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon book_alt"></span>book_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon calendar"></span>calendar
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon film"></span>film
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon table"></span>table
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon contacts_alt"></span>contacts_alt
-    </span>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon lifesaver"></span>lifesaver
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon piechart"></span>piechart
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon refresh"></span>refresh
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon link_alt"></span>link_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon link"></span>link
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon loading"></span>loading
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon blocked"></span>blocked
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon archive_alt"></span>archive_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon heart_alt"></span>heart_alt
-    </span>
-
-
-
-
-        <span class="box">
-            <span aria-hidden="true" class="icon printer"></span>
-printer
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon calulator"></span>
-calulator
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon building"></span>
-building
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon floppy"></span>
-floppy
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon drive"></span>
-drive
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon search-2"></span>
-search-2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon id"></span>
-id
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon id-2"></span>
-id-2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon puzzle"></span>
-puzzle
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon like"></span>
-like
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon dislike"></span>
-dislike
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon mug"></span>
-mug
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon currency"></span>
-currency
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon wallet"></span>
-wallet
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon pens"></span>
-pens
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon easel"></span>
-easel
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon flowchart"></span>
-flowchart
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon datareport"></span>
-datareport
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon briefcase"></span>
-briefcase
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon shield"></span>
-shield
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon percent"></span>
-percent
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon globe"></span>
-globe
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon globe-2"></span>
-globe-2
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon target"></span>
-target
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon hourglass"></span>
-hourglass
-        </span>
-        <span class="box">
-            <span aria-hidden="true" class="icon balance"></span>
-balance
-        </span>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon star_alt"></span>star_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon star-half_alt"></span>star-half_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon star"></span>star
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon star-half"></span>star-half
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tools"></span>tools
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tool"></span>tool
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cog"></span>cog
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cogs"></span>cogs
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon up_alt"></span>up_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon down_alt"></span>down_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon left_alt"></span>left_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon right_alt"></span>right_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon left-up_alt"></span>left-up_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon right-up_alt"></span>right-up_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon right-down_alt"></span>right-down_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon left-down_alt"></span>left-down_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon condense_alt"></span>condense_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon expand_alt3"></span>expand_alt3
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot_up_alt"></span>carrot_up_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-down_alt"></span>carrot-down_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-left_alt"></span>carrot-left_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-right_alt"></span>carrot-right_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-2up_alt"></span>carrot-2up_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-2dwnn_alt"></span>carrot-2dwnn_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-2left_alt"></span>carrot-2left_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon carrot-2right_alt"></span>carrot-2right_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon triangle-up_alt"></span>triangle-up_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon triangle-down_alt"></span>triangle-down_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon triangle-left_alt"></span>triangle-left_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon triangle-right_alt"></span>triangle-right_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon minus_alt"></span>minus_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon plus_alt"></span>plus_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon close_alt"></span>close_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon check_alt"></span>check_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon zoom-out"></span>zoom-out
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon zoom-in"></span>zoom-in
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon stop_alt"></span>stop_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon menu-square_alt"></span>menu-square_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon menu-circle_alt"></span>menu-circle_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon document"></span>document
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon documents"></span>documents
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pencil_alt"></span>pencil_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon folder"></span>folder
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon folder-open"></span>folder-open
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon folder-add"></span>folder-add
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon folder_upload"></span>folder_upload
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon folder_download"></span>folder_download
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon info"></span>info
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon error-circle"></span>error-circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon error-oct"></span>error-oct
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon error-triangle"></span>error-triangle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon question_alt"></span>question_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon comment"></span>comment
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon chat"></span>chat
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon vol-mute"></span>vol-mute
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon volume-low"></span>volume-low
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon volume-high"></span>volume-high
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon quotations_alt"></span>quotations_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon clock"></span>clock
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon lock"></span>lock
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon lock-open"></span>lock-open
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon key"></span>key
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cloud"></span>cloud
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cloud-upload"></span>cloud-upload
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cloud-download"></span>cloud-download
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon lightbulb"></span>lightbulb
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon gift"></span>gift
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon house"></span>house
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon camera"></span>camera
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon mail"></span>mail
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cone"></span>cone
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon ribbon"></span>ribbon
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon bag"></span>bag
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cart"></span>cart
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tag"></span>tag
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tags"></span>tags
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon trash"></span>trash
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon cursor"></span>cursor
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon mic"></span>mic
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon compass"></span>compass
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pin"></span>pin
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pushpin"></span>pushpin
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon map"></span>map
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon drawer"></span>drawer
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon toolbox"></span>toolbox
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon book"></span>book
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon contacts"></span>contacts
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon archive"></span>archive
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon heart"></span>heart
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon profile"></span>profile
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon group"></span>group
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon grid-2x2"></span>grid-2x2
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon grid-3x3"></span>grid-3x3
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon music"></span>music
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pause_alt"></span>pause_alt
-    </span>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon upload"></span>upload
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon download"></span>download
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon rook"></span>rook
-    </span>
-
-    <div class="enterprise">
-        <h1>Enterprise</h1>
-        <hr/>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon printer-alt"></span>printer-alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon calculator_alt"></span>calculator_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon building_alt"></span>building_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon floppy_alt"></span>floppy_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon drive_alt"></span>drive_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon search_alt"></span>search_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon id_alt"></span>id_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon id-2_alt"></span>id-2_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon puzzle_alt"></span>puzzle_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon like_alt"></span>like_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon dislike_alt"></span>dislike_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon mug_alt"></span>mug_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon currency_alt"></span>currency_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon wallet_alt"></span>wallet_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pens_alt"></span>pens_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon easel_alt"></span>easel_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon flowchart_alt"></span>flowchart_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon datareport_alt"></span>datareport_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon briefcase_alt"></span>briefcase_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon shield_alt"></span>shield_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon percent_alt"></span>percent_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon globe_alt"></span>globe_alt
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon clipboard"></span>clipboard
-    </span>
-
-    </div>
-
-    <h1>Social</h1>
-    <hr/>
-
-    <span class="box">
-        <span aria-hidden="true" class="icon facebook"></span>facebook
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon twitter"></span>twitter
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pinterest"></span>pinterest
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon googleplus"></span>googleplus
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tumblr"></span>tumblr
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tumbleupon"></span>tumbleupon
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon wordpress"></span>wordpress
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon instagram"></span>instagram
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon dribbble"></span>dribbble
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon vimeo"></span>vimeo
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon linkedin"></span>linkedin
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon rss"></span>rss
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon deviantart"></span>deviantart
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon share"></span>share
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon myspace"></span>myspace
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon skype"></span>skype
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon youtube"></span>youtube
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon picassa"></span>picassa
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon googledrive"></span>googledrive
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon flickr"></span>flickr
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon blogger"></span>blogger
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon spotify"></span>spotify
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon delicious"></span>delicious
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon facebook_circle"></span>facebook_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon twitter_circle"></span>twitter_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pinterest_circle"></span>pinterest_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon googleplus_circle"></span>googleplus_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tumblr_circle"></span>tumblr_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon stumbleupon_circle"></span>stumbleupon_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon wordpress_circle"></span>wordpress_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon instagram_circle"></span>instagram_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon dribbble_circle"></span>dribbble_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon vimeo_circle"></span>vimeo_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon linkedin_circle"></span>linkedin_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon rss_circle"></span>rss_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon deviantart_circle"></span>deviantart_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon share_circle"></span>share_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon myspace_circle"></span>myspace_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon skype_circle"></span>skype_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon youtube_circle"></span>youtube_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon picassa_circle"></span>picassa_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon googledrive_alt2"></span>googledrive_alt2
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon flickr_circle"></span>flickr_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon blogger_circle"></span>blogger_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon spotify_circle"></span>spotify_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon delicious_circle"></span>delicious_circle
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon facebook_square"></span>facebook_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon twitter_square"></span>twitter_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon pinterest_square"></span>pinterest_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon googleplus_square"></span>googleplus_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon tumblr_square"></span>tumblr_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon stumbleupon_square"></span>stumbleupon_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon wordpress_square"></span>wordpress_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon instagram_square"></span>instagram_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon dribbble_square"></span>dribbble_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon vimeo_square"></span>vimeo_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon linkedin_square"></span>linkedin_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon rss_square"></span>rss_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon deviantart_square"></span>deviantart_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon share_square"></span>share_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon myspace_square"></span>myspace_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon skype_square"></span>skype_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon youtube_square"></span>youtube_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon picassa_square"></span>picassa_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon googledrive_square"></span>googledrive_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon flickr_square"></span>flickr_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon blogger_square"></span>blogger_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon spotify_square"></span>spotify_square
-    </span>
-    <span class="box">
-        <span aria-hidden="true" class="icon delicious_square"></span>delicious_square
-    </span>
-    </section>
-    <footer>
-        <p>Generated by <a href="http://icomoon.io">IcoMoon.io</a></p>
-    </footer>
-    </article>
+    <h2>Social</h2>
+    <ul>
+      <li><span class="icon icon-social-google-plus"></span>"\f146"</li>
+      <li><span class="icon icon-social-google-plus-outline"></span>"\f145"</li>
+      <li><span class="icon social-android"></span>"\f225"</li>
+      <li><span class="icon social-android-outline"></span>"\f224"</li>
+      <li><span class="icon social-apple"></span>"\f227"</li>
+      <li><span class="icon social-apple-outline"></span>"\f226"</li>
+      <li><span class="icon social-bitcoin"></span>"\f2af"</li>
+      <li><span class="icon social-bitcoin-outline"></span>"\f2ae"</li>
+      <li><span class="icon social-buffer"></span>"\f229"</li>
+      <li><span class="icon social-buffer-outline"></span>"\f228"</li>
+      <li><span class="icon social-designernews"></span>"\f22b"</li>
+      <li><span class="icon social-designernews-outline"></span>"\f22a"</li>
+      <li><span class="icon social-dribbble"></span>"\f22d"</li>
+      <li><span class="icon social-dribbble-outline"></span>"\f22c"</li>
+      <li><span class="icon social-dropbox"></span>"\f22f"</li>
+      <li><span class="icon social-dropbox-outline"></span>"\f22e"</li>
+      <li><span class="icon social-facebook"></span>"\f231"</li>
+      <li><span class="icon social-facebook-outline"></span>"\f230"</li>
+      <li><span class="icon social-github"></span>"\f233"</li>
+      <li><span class="icon social-github-outline"></span>"\f232"</li>
+      <li><span class="icon social-googleplus"></span>"\f235"</li>
+      <li><span class="icon social-googleplus-outline"></span>"\f234"</li>
+      <li><span class="icon social-hackernews"></span>"\f237"</li>
+      <li><span class="icon social-hackernews-outline"></span>"\f236"</li>
+      <li><span class="icon social-linkedin"></span>"\f239"</li>
+      <li><span class="icon social-linkedin-outline"></span>"\f238"</li>
+      <li><span class="icon social-pinterest"></span>"\f2b1"</li>
+      <li><span class="icon social-pinterest-outline"></span>"\f2b0"</li>
+      <li><span class="icon social-reddit"></span>"\f23b"</li>
+      <li><span class="icon social-reddit-outline"></span>"\f23a"</li>
+      <li><span class="icon social-rss"></span>"\f23d"</li>
+      <li><span class="icon social-rss-outline"></span>"\f23c"</li>
+      <li><span class="icon social-skype"></span>"\f23f"</li>
+      <li><span class="icon social-skype-outline"></span>"\f23e"</li>
+      <li><span class="icon social-tumblr"></span>"\f241"</li>
+      <li><span class="icon social-tumblr-outline"></span>"\f240"</li>
+      <li><span class="icon social-twitter"></span>"\f243"</li>
+      <li><span class="icon social-twitter-outline"></span>"\f242"</li>
+      <li><span class="icon social-vimeo"></span>"\f245"</li>
+      <li><span class="icon social-vimeo-outline"></span>"\f244"</li>
+      <li><span class="icon social-windows"></span>"\f247"</li>
+      <li><span class="icon social-windows-outline"></span>"\f246"</li>
+      <li><span class="icon social-wordpress"></span>"\f249"</li>
+      <li><span class="icon social-wordpress-outline"></span>"\f248"</li>
+      <li><span class="icon social-yahoo"></span>"\f24b"</li>
+      <li><span class="icon social-yahoo-outline"></span>"\f24a"</li>
+      <li><span class="icon social-youtube"></span>"\f24d"</li>
+      <li><span class="icon social-youtube-outline"></span>
+        "\f24c"</li>
+    </ul>
+</div>
 </body>
 </html>
