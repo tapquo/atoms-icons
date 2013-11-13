@@ -65,7 +65,6 @@
 .icon.code:before{content:"\f271"}
 .icon.code-download:before{content:"\f26f"}
 .icon.code-working:before{content:"\f270"}
-.icon.coffee:before{content:"\f272"}
 .icon.compass:before{content:"\f273"}
 .icon.compose:before{content:"\f12c"}
 .icon.connection-bars:before{content:"\f274"}
@@ -75,7 +74,6 @@
 .icon.document-text:before{content:"\f12e"}
 .icon.drag:before{content:"\f130"}
 .icon.earth:before{content:"\f276"}
-.icon.eject:before{content:"\f131"}
 .icon.email:before{content:"\f132"}
 .icon.eye:before{content:"\f133"}
 .icon.filing:before{content:"\f134"}
@@ -83,16 +81,12 @@
 .icon.flag:before{content:"\f279"}
 .icon.flash:before{content:"\f137"}
 .icon.flash-off:before{content:"\f136"}
-.icon.flask:before{content:"\f138"}
 .icon.folder:before{content:"\f139"}
 .icon.gear-a:before{content:"\f13d"}
 .icon.gear-b:before{content:"\f13e"}
 .icon.grid:before{content:"\f13f"}
 .icon.headphone:before{content:"\f140"}
 .icon.heart:before{content:"\f141"}
-.icon.help:before{content:"\f143"}
-.icon.help-buoy:before{content:"\f27c"}
-.icon.help-circled:before{content:"\f142"}
 .icon.home:before{content:"\f144"}
 .icon.icecream:before{content:"\f27d"}
 .icon.image:before{content:"\f147"}
@@ -124,9 +118,6 @@
 .icon.ios7-chatboxes-outline:before{content:"\f168"}
 .icon.ios7-chatbubble:before{content:"\f16b"}
 .icon.ios7-chatbubble-outline:before{content:"\f16a"}
-.icon.ios7-checkmark:before{content:"\f16e"}
-.icon.ios7-checkmark-empty:before{content:"\f16c"}
-.icon.ios7-checkmark-outline:before{content:"\f16d"}
 .icon.ios7-circle-filled:before{content:"\f16f"}
 .icon.ios7-circle-outline:before{content:"\f170"}
 .icon.ios7-clock:before{content:"\f172"}
@@ -181,9 +172,6 @@
 .icon.ios7-mic:before{content:"\f1ab"}
 .icon.ios7-mic-off:before{content:"\f1a9"}
 .icon.ios7-mic-outline:before{content:"\f1aa"}
-.icon.ios7-minus:before{content:"\f1ae"}
-.icon.ios7-minus-empty:before{content:"\f1ac"}
-.icon.ios7-minus-outline:before{content:"\f1ad"}
 .icon.ios7-moon:before{content:"\f1b2"}
 .icon.ios7-moon-outline:before{content:"\f1b1"}
 .icon.ios7-more:before{content:"\f1b4"}
@@ -200,9 +188,6 @@
 .icon.ios7-photos-outline:before{content:"\f1c5"}
 .icon.ios7-pie:before{content:"\f28b"}
 .icon.ios7-pie-outline:before{content:"\f28a"}
-.icon.ios7-plus:before{content:"\f1cb"}
-.icon.ios7-plus-empty:before{content:"\f1c9"}
-.icon.ios7-plus-outline:before{content:"\f1ca"}
 .icon.ios7-pricetag:before{content:"\f28d"}
 .icon.ios7-pricetag-outline:before{content:"\f28c"}
 .icon.ios7-rainy:before{content:"\f1cf"}
@@ -252,14 +237,10 @@
 .icon.log-in:before{content:"\f29e"}
 .icon.log-out:before{content:"\f29f"}
 .icon.loop:before,.icon.looping:before{content:"\f201"}
-.icon.magnet:before{content:"\f2a0"}
 .icon.map:before{content:"\f203"}
 .icon.mic-a:before{content:"\f204"}
 .icon.mic-b:before{content:"\f205"}
 .icon.mic-c:before{content:"\f206"}
-.icon.minus:before{content:"\f209"}
-.icon.minus-circled:before{content:"\f207"}
-.icon.minus-round:before{content:"\f208"}
 .icon.more:before{content:"\f20b"}
 .icon.music-note:before{content:"\f20c"}
 .icon.navicon:before{content:"\f20e"}
@@ -270,9 +251,6 @@
 .icon.pie-graph:before{content:"\f2a5"}
 .icon.pin:before{content:"\f2a6"}
 .icon.pinpoint:before{content:"\f2a7"}
-.icon.plus:before{content:"\f218"}
-.icon.plus-circled:before{content:"\f216"}
-.icon.plus-round:before{content:"\f217"}
 .icon.pound:before{content:"\f219"}
 .icon.power:before{content:"\f2a9"}
 .icon.pricetag:before{content:"\f2aa"}
@@ -285,7 +263,6 @@
 .icon.search:before{content:"\f21f"}
 .icon.settings:before{content:"\f2ad"}
 .icon.share:before{content:"\f220"}
-.icon.shuffle:before{content:"\f221"}
 .icon.speakerphone:before{content:"\f2b2"}
 .icon.speedometer:before{content:"\f2b3"}
 .icon.star:before{content:"\f24e"}
@@ -361,6 +338,9 @@
 .icon.ios7-medkit:before{content:"\f289"}
 .icon.ios7-medkit-outline:before{content:"\f288"}
 .icon.medkit:before{content:"\f2a2"}
+.icon.magnet:before{content:"\f2a0"}
+.icon.flask:before{content:"\f138"}
+.icon.coffee:before{content:"\f272"}
 
 .icon.people:before{content:"\f1c0"}
 .icon.people-outline:before{content:"\f1bf"}
@@ -400,6 +380,8 @@
 .icon.volume-low:before{content:"\f258"}
 .icon.volume-medium:before{content:"\f259"}
 .icon.volume-mute:before{content:"\f25a"}
+.icon.eject:before{content:"\f131"}
+.icon.shuffle:before{content:"\f221"}
 
 .icon.alert:before{content:"\f101"}
 .icon.alert-circled:before{content:"\f100"}
@@ -414,6 +396,24 @@
 .icon.checkmark:before{content:"\f122"}
 .icon.checkmark-circled:before{content:"\f120"}
 .icon.checkmark-round:before{content:"\f121"}
+.icon.ios7-plus:before{content:"\f1cb"}
+.icon.ios7-plus-empty:before{content:"\f1c9"}
+.icon.ios7-plus-outline:before{content:"\f1ca"}
+.icon.plus:before{content:"\f218"}
+.icon.plus-circled:before{content:"\f216"}
+.icon.plus-round:before{content:"\f217"}
+.icon.ios7-minus:before{content:"\f1ae"}
+.icon.ios7-minus-empty:before{content:"\f1ac"}
+.icon.ios7-minus-outline:before{content:"\f1ad"}
+.icon.minus:before{content:"\f209"}
+.icon.minus-circled:before{content:"\f207"}
+.icon.minus-round:before{content:"\f208"}
+.icon.ios7-checkmark:before{content:"\f16e"}
+.icon.ios7-checkmark-empty:before{content:"\f16c"}
+.icon.ios7-checkmark-outline:before{content:"\f16d"}
+.icon.help:before{content:"\f143"}
+.icon.help-buoy:before{content:"\f27c"}
+.icon.help-circled:before{content:"\f142"}
 
 .icon.icon-social-google-plus:before{content:"\f146"}
 .icon.icon-social-google-plus-outline:before{content:"\f145"}
