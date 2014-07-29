@@ -1,11 +1,11 @@
 {
   "name": "atoms.icons",
-  "description": "Based on the premium icon font for Ionic Framework.",
-  "version": "0.0.2",
-  "homepage": "http://ionicons.com/",
+  "description": "Based on Icon 7 from Pixeden.",
+  "version": "0.07.30",
+  "homepage": "http://atoms.tapquo.com/",
   "author": {
     "name": "Javi Jimenez Villar - @soyjavi",
-    "site": "http://tapquo.com"},
+    "site": "https://twitter.com/soyjavi"},
   "main": ["./atoms.icons.css"],
   "keywords": [ "mobile", "framework", "html5", "device", "desktop", "phone", "tablet", "tv" ],
   "license": [ {"type": "MIT"} ]
